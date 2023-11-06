@@ -2,30 +2,53 @@
 <html>
 <head>
     <title>Code Solo</title>
-    <!-- The code below imports bootstrap CSS - this does the styling. -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- The code below imports bootstrap JS - this adds interactivity. -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- Follow the steps below to build out a quick webpage using boostrap documentation. -->
-
-<!-- 1. Go to getbootstrap.com -->
-
-<!-- 2. In the search bar, type "navbar" and press enter. There are many to choose from,
-     but scroll and find the one that simply says "Nav" -->
-
-<!-- 3. Copy the HTML code and paste it below. Run your code - what do you see?  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code-along.html">code-along.html</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <!-- 4. Auto-format your page to clean things up. -->
 
-<!-- 5. Next, in the search bar, type "cards" and press enter. Copy the "Example" HTML and paste below. -->
+  <div class="card">
+    <div class="card-body">
+      This is some text within a card body.
+    </div>
+  </div>
 
-<!-- 6. Find an image you like from a Google search - put this as the src for the img tag. -->
+<img src="https://edit.co.uk/uploads/2016/12/Image-2-Alternatives-to-stock-photography-Thinkstock.jpg">
 
-<!-- 7. Scroll through the side menu and see what else you can add - take a look at the options in the "Components" section.  -->
 
-<!-- 8. Try out some new code and have fun! 😊 -->
     
 </body>
 </html>
